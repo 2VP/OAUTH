@@ -1,23 +1,23 @@
 module.exports = {
 
-    token: 'MTA1MDg1OTU2MTcwMTA4MTE2MA.G6pXjc.mR4UxmnyfDJqdCYOJIhEAzWTU8oqAVF9HTUEMw',
+    token: 'MTEyNTA5ODc1MTc3ODg4NTY5Mg.GA8VVG.J83Z5EuP8oFkdUN1D8bLRCFWXLLmmf0WIrk5Ww',
     
-    authDevelopers: ['1032357870353784862','1043550134249726012'], // developers
-    authOwners: ['1046816796344340561'], // whitelist
+    authDevelopers: ['531554174312120349'], // developers
+    authOwners: ['1123419805551185942', '1122899997369847838'], // whitelist
 
     webhook: {
-        name: 'AuthCord',
+        name: 'Oauth',
         avatar: 'https://cdn.discordapp.com/avatars/1009773285577347193/fd0968c08b2cb3311672d030836da7c8.png',
-        url: 'https://discord.com/api/webhooks/1050862599765504030/46YIqo_8J60gHItLsRRG7NzOinuK8t4xl9r2fjX9XsfHtMJc_unWxQyjVByAuG-k5678',
+        url: 'https://discord.com/api/webhooks/1125099402579689503/Kc2RBdeRmnuu3a7R7DvEsEPzVPGF-tgBhjmB_NlIkt6GsquBTUTj4FzGdgtjgXK0woaS',
     },
 
     client: {
-        id: "1050859561701081160",
-        secret: "sQd7ZcZpmxLhHfQlDVsNG42SLxtlDIHV",
-        redirect_uri: "http://93.190.8.234:319/auth/discord/callback",
+        id: "1125098751778885692",
+        secret: "45nr18uLK3-U-Dg2zKgmi8piYwCY5N94",
+        redirect_uri: "https://tulip-humorous-whale.glitch.me/auth",
         scope: ['identify', 'guilds.join'],
-        footer: "AuthCord v1.0", // footer
-        serverLink: "https://discord.gg/badge", // server
+        footer: "Oauth", // footer
+        serverLink: "https://discord.gg/tart", // server
     },
 
     web: {
@@ -26,9 +26,8 @@ module.exports = {
     },
 
     database: {
-
-        URI: 'mongodb+srv://Rowy:Rowy2004@cluster0.kvegz.mongodb.net/ahmett?retryWrites=true&w=majority',
-
+        URI: 'mongodb+srv://mithianstreams:BuiSKQY1EWL2n6e0@cluster0.e1b5pmk.mongodb.net/ahmett?retryWrites=true&w=majority',
+        //URI: 'mongodb+srv://Rowy:Rowy2004@cluster0.kvegz.mongodb.net/ahmett?retryWrites=true&w=majority',
     }
 
 }
